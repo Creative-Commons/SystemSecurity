@@ -14,4 +14,6 @@ with open('file.sql','w') as output:
  CREATE DATABASE /*!32312 IF NOT EXISTS*/`file` /*!40100 DEFAULT CHARACTER SET latin1 */;
 
 USE `file`;
+
+mysql login -> source "../file.sql"
 '''
